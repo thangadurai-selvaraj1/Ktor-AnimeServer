@@ -1,5 +1,5 @@
 # Ktor - AnimeServer
-   In this project i just write some of the codes that will test actual functionality of Todo App behaviour.
+   In this project i just write some code for Ktor framework
    
 ## What are the Topics Covered
     Api Development
