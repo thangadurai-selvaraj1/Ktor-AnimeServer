@@ -16,5 +16,4 @@
     
 
 ## Todo
-    Testing
     Database Integrations
