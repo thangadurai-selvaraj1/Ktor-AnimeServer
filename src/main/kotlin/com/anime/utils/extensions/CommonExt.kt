@@ -8,17 +8,18 @@ fun Int?.calculatePage(): Map<String, Int?> {
     var prePage = this
     var nextPage = this
     when (this) {
-        in (1 until 4) -> {
-            nextPage = this?.plus(1)
-        }
-        in (2 until 5) -> {
-            prePage = this?.minus(1)
-        }
         1 -> {
             prePage = null
+            nextPage = this.plus(1)
         }
         5 -> {
+            prePage = this.minus(1)
             nextPage = null
+        }
+        in (1 until 5) -> {
+            print("im $this")
+            nextPage = this?.plus(1)
+            prePage = this?.minus(1)
         }
     }
     return mapOf(Constants.PRE_PAGE_KEY to prePage, Constants.NEXT_PAGE_KEY to nextPage)

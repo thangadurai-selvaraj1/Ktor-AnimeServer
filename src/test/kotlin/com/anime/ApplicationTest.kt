@@ -45,7 +45,7 @@ class ApplicationTest {
                     success = true,
                     message = "Fetched",
                     nextPage = it.calculatePage()[Constants.NEXT_PAGE_KEY],
-                    prePage = it.calculatePage()[Constants.PRE_PAGE_KEY],
+                    prevPage = it.calculatePage()[Constants.PRE_PAGE_KEY],
                     heroes = list[it - 1]
                 )
 

@@ -11,9 +11,10 @@ class HeroRepositoryImpl : HeroRepository {
         ApiResponse(
             success = true,
             message = "Fetched",
-            prePage = page.calculatePage()[Constants.PRE_PAGE_KEY],
+            prevPage = page.calculatePage()[Constants.PRE_PAGE_KEY],
             nextPage = page.calculatePage()[Constants.NEXT_PAGE_KEY],
-            heroes = heroes[page] ?: emptyList()
+            heroes = heroes[page] ?: emptyList(),
+            lastUpdated = System.currentTimeMillis()
         )
 
 

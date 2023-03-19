@@ -99,9 +99,7 @@ val page1 = listOf(
             "Water",
             "Fire"
         )
-    )
-)
-val page2 = listOf(
+    ),
     Hero(
         id = 4,
         name = "Boruto",
@@ -176,9 +174,7 @@ val page2 = listOf(
             "Lightning",
             "Wind"
         )
-    )
-)
-val page3 = listOf(
+    ),
     Hero(
         id = 7,
         name = "Kawaki",
@@ -249,9 +245,7 @@ val page3 = listOf(
             "Earth",
             "Water"
         )
-    )
-)
-val page4 = listOf(
+    ),
     Hero(
         id = 10,
         name = "Isshiki",
@@ -275,6 +269,8 @@ val page4 = listOf(
             "Fire"
         )
     ),
+)
+val page2 = listOf(
     Hero(
         id = 11,
         name = "Momoshiki",
@@ -323,9 +319,7 @@ val page4 = listOf(
             "Wind",
             "Earth"
         )
-    )
-)
-val page5 = listOf(
+    ),
     Hero(
         id = 13,
         name = "Code",
@@ -370,6 +364,803 @@ val page5 = listOf(
     ),
     Hero(
         id = 15,
+        name = "Koji",
+        image = "/images/koji.jpg",
+        about = "Koji Kashin (果心居士, Kashin Koji) is a clone of Jiraiya that was created by Amado for the purpose of killing Isshiki Ōtsutsuki. A former Inner of Kara, he was in charge of the sector on the outskirts of the Land of Fire. An enigmatic man, Koji has a very stoic and straightforward nature that follows a no-nonsense view. Arrogant as he may appear, he has consistently shown himself to be a very rational and perceptive man.",
+        rating = 4.5,
+        power = 90,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Jiraiya"
+        ),
+        abilities = listOf(
+            "Senin Mode",
+            "Rasengan",
+            "Shadow Clone"
+        ),
+        natureTypes = listOf(
+            "Fire",
+            "Earth"
+        )
+    ),
+    Hero(
+        id = 16,
+        name = "Momoshiki",
+        image = "/images/momoshiki.jpg",
+        about = "Momoshiki Ōtsutsuki (大筒木モモシキ, Ōtsutsuki Momoshiki) was a member of the Ōtsutsuki clan's main family, sent to investigate the whereabouts of Kaguya and her God Tree and then attempting to cultivate a new one out of the chakra of the Seventh Hokage. In the process of being killed by Boruto Uzumaki, Momoshiki placed a Kāma on him, allowing his spirit to remain intact through the mark.",
+        rating = 3.9,
+        power = 98,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Otsutsuki Clan"
+        ),
+        abilities = listOf(
+            "Rinnegan",
+            "Byakugan",
+            "Strength"
+        ),
+        natureTypes = listOf(
+            "Fire",
+            "Lightning",
+            "Wind",
+            "Water",
+            "Earth"
+        )
+    ),
+    Hero(
+        id = 17,
+        name = "Urashiki",
+        image = "/images/urashiki.jpg",
+        about = "Urashiki Ōtsutsuki (大筒木ウラシキ, Ōtsutsuki Urashiki) was a low-ranking member of the Ōtsutsuki clan's main family, sent to assist Momoshiki and Kinshiki on their mission to investigate Kaguya's whereabouts and gather the chakra of the God Tree on Earth. Compared to his comrades, Urashiki had been shown to have a rather laid-back and jovial personality. He was quite willing to joke along with Momoshiki and Kinshiki, and disparaged on how serious they are.",
+        rating = 3.4,
+        power = 95,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Otsutsuki Clan"
+        ),
+        abilities = listOf(
+            "Space–Time",
+            "Rinnegan",
+            "Byakugan"
+        ),
+        natureTypes = listOf(
+            "Fire",
+            "Lightning",
+            "Wind",
+            "Earth"
+        )
+    ),
+    Hero(
+        id = 18,
+        name = "Code",
+        image = "/images/code.jpg",
+        about = "Code (コード, Kōdo) is the last active Inner from Kara. Carrying Isshiki Ōtsutsuki's legacy within him, he inherits the Ōtsutsuki Clan's will to become a Celestial Being and continually evolve. At the time Kawaki was brought to Kara, Code was one of fifteen candidates in Jigen and Amado's Ōtsutsuki ritual to screen for a Kāma vessel for Isshiki. Only Kawaki survived to become an actual vessel.",
+        rating = 4.8,
+        power = 99,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Unknown"
+        ),
+        abilities = listOf(
+            "White Karma",
+            "Transformation",
+            "Genjutsu"
+        ),
+        natureTypes = listOf(
+            "Unknown"
+        )
+    ),
+    Hero(
+        id = 19,
+        name = "Amado",
+        image = "/images/amado.jpg",
+        about = "Amado (アマド, Amado) is a former Inner from the organisation Kara and the head of its research and development division. He has since defected to Konohagakure, where he used a mix of bluffs and gifts to gain official citizenship for the Hokage's protection. Amado had a daughter who died twelve years prior to the reign of the Seventh Hokage. In his quest to kill Isshiki Ōtsutsuki, Amado joined Kara and was granted the rank of Inner, serving as the head of its research and development division.",
+        rating = 5.0,
+        power = 90,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Unknown"
+        ),
+        abilities = listOf(
+            "Science",
+            "Intelligence",
+            "Trickery"
+        ),
+        natureTypes = listOf(
+            "Unknown"
+        )
+    ),
+    Hero(
+        id = 20,
+        name = "Koji",
+        image = "/images/koji.jpg",
+        about = "Koji Kashin (果心居士, Kashin Koji) is a clone of Jiraiya that was created by Amado for the purpose of killing Isshiki Ōtsutsuki. A former Inner of Kara, he was in charge of the sector on the outskirts of the Land of Fire. An enigmatic man, Koji has a very stoic and straightforward nature that follows a no-nonsense view. Arrogant as he may appear, he has consistently shown himself to be a very rational and perceptive man.",
+        rating = 4.5,
+        power = 90,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Jiraiya"
+        ),
+        abilities = listOf(
+            "Senin Mode",
+            "Rasengan",
+            "Shadow Clone"
+        ),
+        natureTypes = listOf(
+            "Fire",
+            "Earth"
+        )
+    )
+)
+val page3 = listOf(
+    Hero(
+        id = 21,
+        name = "Momoshiki",
+        image = "/images/momoshiki.jpg",
+        about = "Momoshiki Ōtsutsuki (大筒木モモシキ, Ōtsutsuki Momoshiki) was a member of the Ōtsutsuki clan's main family, sent to investigate the whereabouts of Kaguya and her God Tree and then attempting to cultivate a new one out of the chakra of the Seventh Hokage. In the process of being killed by Boruto Uzumaki, Momoshiki placed a Kāma on him, allowing his spirit to remain intact through the mark.",
+        rating = 3.9,
+        power = 98,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Otsutsuki Clan"
+        ),
+        abilities = listOf(
+            "Rinnegan",
+            "Byakugan",
+            "Strength"
+        ),
+        natureTypes = listOf(
+            "Fire",
+            "Lightning",
+            "Wind",
+            "Water",
+            "Earth"
+        )
+    ),
+    Hero(
+        id = 22,
+        name = "Urashiki",
+        image = "/images/urashiki.jpg",
+        about = "Urashiki Ōtsutsuki (大筒木ウラシキ, Ōtsutsuki Urashiki) was a low-ranking member of the Ōtsutsuki clan's main family, sent to assist Momoshiki and Kinshiki on their mission to investigate Kaguya's whereabouts and gather the chakra of the God Tree on Earth. Compared to his comrades, Urashiki had been shown to have a rather laid-back and jovial personality. He was quite willing to joke along with Momoshiki and Kinshiki, and disparaged on how serious they are.",
+        rating = 3.4,
+        power = 95,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Otsutsuki Clan"
+        ),
+        abilities = listOf(
+            "Space–Time",
+            "Rinnegan",
+            "Byakugan"
+        ),
+        natureTypes = listOf(
+            "Fire",
+            "Lightning",
+            "Wind",
+            "Earth"
+        )
+    ),
+    Hero(
+        id = 23,
+        name = "Code",
+        image = "/images/code.jpg",
+        about = "Code (コード, Kōdo) is the last active Inner from Kara. Carrying Isshiki Ōtsutsuki's legacy within him, he inherits the Ōtsutsuki Clan's will to become a Celestial Being and continually evolve. At the time Kawaki was brought to Kara, Code was one of fifteen candidates in Jigen and Amado's Ōtsutsuki ritual to screen for a Kāma vessel for Isshiki. Only Kawaki survived to become an actual vessel.",
+        rating = 4.8,
+        power = 99,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Unknown"
+        ),
+        abilities = listOf(
+            "White Karma",
+            "Transformation",
+            "Genjutsu"
+        ),
+        natureTypes = listOf(
+            "Unknown"
+        )
+    ),
+    Hero(
+        id = 24,
+        name = "Amado",
+        image = "/images/amado.jpg",
+        about = "Amado (アマド, Amado) is a former Inner from the organisation Kara and the head of its research and development division. He has since defected to Konohagakure, where he used a mix of bluffs and gifts to gain official citizenship for the Hokage's protection. Amado had a daughter who died twelve years prior to the reign of the Seventh Hokage. In his quest to kill Isshiki Ōtsutsuki, Amado joined Kara and was granted the rank of Inner, serving as the head of its research and development division.",
+        rating = 5.0,
+        power = 90,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Unknown"
+        ),
+        abilities = listOf(
+            "Science",
+            "Intelligence",
+            "Trickery"
+        ),
+        natureTypes = listOf(
+            "Unknown"
+        )
+    ),
+    Hero(
+        id = 25,
+        name = "Koji",
+        image = "/images/koji.jpg",
+        about = "Koji Kashin (果心居士, Kashin Koji) is a clone of Jiraiya that was created by Amado for the purpose of killing Isshiki Ōtsutsuki. A former Inner of Kara, he was in charge of the sector on the outskirts of the Land of Fire. An enigmatic man, Koji has a very stoic and straightforward nature that follows a no-nonsense view. Arrogant as he may appear, he has consistently shown himself to be a very rational and perceptive man.",
+        rating = 4.5,
+        power = 90,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Jiraiya"
+        ),
+        abilities = listOf(
+            "Senin Mode",
+            "Rasengan",
+            "Shadow Clone"
+        ),
+        natureTypes = listOf(
+            "Fire",
+            "Earth"
+        )
+    ),
+    Hero(
+        id = 26,
+        name = "Momoshiki",
+        image = "/images/momoshiki.jpg",
+        about = "Momoshiki Ōtsutsuki (大筒木モモシキ, Ōtsutsuki Momoshiki) was a member of the Ōtsutsuki clan's main family, sent to investigate the whereabouts of Kaguya and her God Tree and then attempting to cultivate a new one out of the chakra of the Seventh Hokage. In the process of being killed by Boruto Uzumaki, Momoshiki placed a Kāma on him, allowing his spirit to remain intact through the mark.",
+        rating = 3.9,
+        power = 98,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Otsutsuki Clan"
+        ),
+        abilities = listOf(
+            "Rinnegan",
+            "Byakugan",
+            "Strength"
+        ),
+        natureTypes = listOf(
+            "Fire",
+            "Lightning",
+            "Wind",
+            "Water",
+            "Earth"
+        )
+    ),
+    Hero(
+        id = 27,
+        name = "Urashiki",
+        image = "/images/urashiki.jpg",
+        about = "Urashiki Ōtsutsuki (大筒木ウラシキ, Ōtsutsuki Urashiki) was a low-ranking member of the Ōtsutsuki clan's main family, sent to assist Momoshiki and Kinshiki on their mission to investigate Kaguya's whereabouts and gather the chakra of the God Tree on Earth. Compared to his comrades, Urashiki had been shown to have a rather laid-back and jovial personality. He was quite willing to joke along with Momoshiki and Kinshiki, and disparaged on how serious they are.",
+        rating = 3.4,
+        power = 95,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Otsutsuki Clan"
+        ),
+        abilities = listOf(
+            "Space–Time",
+            "Rinnegan",
+            "Byakugan"
+        ),
+        natureTypes = listOf(
+            "Fire",
+            "Lightning",
+            "Wind",
+            "Earth"
+        )
+    ),
+    Hero(
+        id = 28,
+        name = "Code",
+        image = "/images/code.jpg",
+        about = "Code (コード, Kōdo) is the last active Inner from Kara. Carrying Isshiki Ōtsutsuki's legacy within him, he inherits the Ōtsutsuki Clan's will to become a Celestial Being and continually evolve. At the time Kawaki was brought to Kara, Code was one of fifteen candidates in Jigen and Amado's Ōtsutsuki ritual to screen for a Kāma vessel for Isshiki. Only Kawaki survived to become an actual vessel.",
+        rating = 4.8,
+        power = 99,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Unknown"
+        ),
+        abilities = listOf(
+            "White Karma",
+            "Transformation",
+            "Genjutsu"
+        ),
+        natureTypes = listOf(
+            "Unknown"
+        )
+    ),
+    Hero(
+        id = 29,
+        name = "Amado",
+        image = "/images/amado.jpg",
+        about = "Amado (アマド, Amado) is a former Inner from the organisation Kara and the head of its research and development division. He has since defected to Konohagakure, where he used a mix of bluffs and gifts to gain official citizenship for the Hokage's protection. Amado had a daughter who died twelve years prior to the reign of the Seventh Hokage. In his quest to kill Isshiki Ōtsutsuki, Amado joined Kara and was granted the rank of Inner, serving as the head of its research and development division.",
+        rating = 5.0,
+        power = 90,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Unknown"
+        ),
+        abilities = listOf(
+            "Science",
+            "Intelligence",
+            "Trickery"
+        ),
+        natureTypes = listOf(
+            "Unknown"
+        )
+    ),
+    Hero(
+        id = 30,
+        name = "Koji",
+        image = "/images/koji.jpg",
+        about = "Koji Kashin (果心居士, Kashin Koji) is a clone of Jiraiya that was created by Amado for the purpose of killing Isshiki Ōtsutsuki. A former Inner of Kara, he was in charge of the sector on the outskirts of the Land of Fire. An enigmatic man, Koji has a very stoic and straightforward nature that follows a no-nonsense view. Arrogant as he may appear, he has consistently shown himself to be a very rational and perceptive man.",
+        rating = 4.5,
+        power = 90,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Jiraiya"
+        ),
+        abilities = listOf(
+            "Senin Mode",
+            "Rasengan",
+            "Shadow Clone"
+        ),
+        natureTypes = listOf(
+            "Fire",
+            "Earth"
+        )
+    )
+)
+val page4 = listOf(
+    Hero(
+        id = 31,
+        name = "Momoshiki",
+        image = "/images/momoshiki.jpg",
+        about = "Momoshiki Ōtsutsuki (大筒木モモシキ, Ōtsutsuki Momoshiki) was a member of the Ōtsutsuki clan's main family, sent to investigate the whereabouts of Kaguya and her God Tree and then attempting to cultivate a new one out of the chakra of the Seventh Hokage. In the process of being killed by Boruto Uzumaki, Momoshiki placed a Kāma on him, allowing his spirit to remain intact through the mark.",
+        rating = 3.9,
+        power = 98,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Otsutsuki Clan"
+        ),
+        abilities = listOf(
+            "Rinnegan",
+            "Byakugan",
+            "Strength"
+        ),
+        natureTypes = listOf(
+            "Fire",
+            "Lightning",
+            "Wind",
+            "Water",
+            "Earth"
+        )
+    ),
+    Hero(
+        id = 32,
+        name = "Urashiki",
+        image = "/images/urashiki.jpg",
+        about = "Urashiki Ōtsutsuki (大筒木ウラシキ, Ōtsutsuki Urashiki) was a low-ranking member of the Ōtsutsuki clan's main family, sent to assist Momoshiki and Kinshiki on their mission to investigate Kaguya's whereabouts and gather the chakra of the God Tree on Earth. Compared to his comrades, Urashiki had been shown to have a rather laid-back and jovial personality. He was quite willing to joke along with Momoshiki and Kinshiki, and disparaged on how serious they are.",
+        rating = 3.4,
+        power = 95,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Otsutsuki Clan"
+        ),
+        abilities = listOf(
+            "Space–Time",
+            "Rinnegan",
+            "Byakugan"
+        ),
+        natureTypes = listOf(
+            "Fire",
+            "Lightning",
+            "Wind",
+            "Earth"
+        )
+    ),
+    Hero(
+        id = 33,
+        name = "Code",
+        image = "/images/code.jpg",
+        about = "Code (コード, Kōdo) is the last active Inner from Kara. Carrying Isshiki Ōtsutsuki's legacy within him, he inherits the Ōtsutsuki Clan's will to become a Celestial Being and continually evolve. At the time Kawaki was brought to Kara, Code was one of fifteen candidates in Jigen and Amado's Ōtsutsuki ritual to screen for a Kāma vessel for Isshiki. Only Kawaki survived to become an actual vessel.",
+        rating = 4.8,
+        power = 99,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Unknown"
+        ),
+        abilities = listOf(
+            "White Karma",
+            "Transformation",
+            "Genjutsu"
+        ),
+        natureTypes = listOf(
+            "Unknown"
+        )
+    ),
+    Hero(
+        id = 34,
+        name = "Amado",
+        image = "/images/amado.jpg",
+        about = "Amado (アマド, Amado) is a former Inner from the organisation Kara and the head of its research and development division. He has since defected to Konohagakure, where he used a mix of bluffs and gifts to gain official citizenship for the Hokage's protection. Amado had a daughter who died twelve years prior to the reign of the Seventh Hokage. In his quest to kill Isshiki Ōtsutsuki, Amado joined Kara and was granted the rank of Inner, serving as the head of its research and development division.",
+        rating = 5.0,
+        power = 90,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Unknown"
+        ),
+        abilities = listOf(
+            "Science",
+            "Intelligence",
+            "Trickery"
+        ),
+        natureTypes = listOf(
+            "Unknown"
+        )
+    ),
+    Hero(
+        id = 35,
+        name = "Koji",
+        image = "/images/koji.jpg",
+        about = "Koji Kashin (果心居士, Kashin Koji) is a clone of Jiraiya that was created by Amado for the purpose of killing Isshiki Ōtsutsuki. A former Inner of Kara, he was in charge of the sector on the outskirts of the Land of Fire. An enigmatic man, Koji has a very stoic and straightforward nature that follows a no-nonsense view. Arrogant as he may appear, he has consistently shown himself to be a very rational and perceptive man.",
+        rating = 4.5,
+        power = 90,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Jiraiya"
+        ),
+        abilities = listOf(
+            "Senin Mode",
+            "Rasengan",
+            "Shadow Clone"
+        ),
+        natureTypes = listOf(
+            "Fire",
+            "Earth"
+        )
+    ),
+    Hero(
+        id = 36,
+        name = "Momoshiki",
+        image = "/images/momoshiki.jpg",
+        about = "Momoshiki Ōtsutsuki (大筒木モモシキ, Ōtsutsuki Momoshiki) was a member of the Ōtsutsuki clan's main family, sent to investigate the whereabouts of Kaguya and her God Tree and then attempting to cultivate a new one out of the chakra of the Seventh Hokage. In the process of being killed by Boruto Uzumaki, Momoshiki placed a Kāma on him, allowing his spirit to remain intact through the mark.",
+        rating = 3.9,
+        power = 98,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Otsutsuki Clan"
+        ),
+        abilities = listOf(
+            "Rinnegan",
+            "Byakugan",
+            "Strength"
+        ),
+        natureTypes = listOf(
+            "Fire",
+            "Lightning",
+            "Wind",
+            "Water",
+            "Earth"
+        )
+    ),
+    Hero(
+        id = 37,
+        name = "Urashiki",
+        image = "/images/urashiki.jpg",
+        about = "Urashiki Ōtsutsuki (大筒木ウラシキ, Ōtsutsuki Urashiki) was a low-ranking member of the Ōtsutsuki clan's main family, sent to assist Momoshiki and Kinshiki on their mission to investigate Kaguya's whereabouts and gather the chakra of the God Tree on Earth. Compared to his comrades, Urashiki had been shown to have a rather laid-back and jovial personality. He was quite willing to joke along with Momoshiki and Kinshiki, and disparaged on how serious they are.",
+        rating = 3.4,
+        power = 95,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Otsutsuki Clan"
+        ),
+        abilities = listOf(
+            "Space–Time",
+            "Rinnegan",
+            "Byakugan"
+        ),
+        natureTypes = listOf(
+            "Fire",
+            "Lightning",
+            "Wind",
+            "Earth"
+        )
+    ),
+    Hero(
+        id = 38,
+        name = "Code",
+        image = "/images/code.jpg",
+        about = "Code (コード, Kōdo) is the last active Inner from Kara. Carrying Isshiki Ōtsutsuki's legacy within him, he inherits the Ōtsutsuki Clan's will to become a Celestial Being and continually evolve. At the time Kawaki was brought to Kara, Code was one of fifteen candidates in Jigen and Amado's Ōtsutsuki ritual to screen for a Kāma vessel for Isshiki. Only Kawaki survived to become an actual vessel.",
+        rating = 4.8,
+        power = 99,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Unknown"
+        ),
+        abilities = listOf(
+            "White Karma",
+            "Transformation",
+            "Genjutsu"
+        ),
+        natureTypes = listOf(
+            "Unknown"
+        )
+    ),
+    Hero(
+        id = 39,
+        name = "Amado",
+        image = "/images/amado.jpg",
+        about = "Amado (アマド, Amado) is a former Inner from the organisation Kara and the head of its research and development division. He has since defected to Konohagakure, where he used a mix of bluffs and gifts to gain official citizenship for the Hokage's protection. Amado had a daughter who died twelve years prior to the reign of the Seventh Hokage. In his quest to kill Isshiki Ōtsutsuki, Amado joined Kara and was granted the rank of Inner, serving as the head of its research and development division.",
+        rating = 5.0,
+        power = 90,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Unknown"
+        ),
+        abilities = listOf(
+            "Science",
+            "Intelligence",
+            "Trickery"
+        ),
+        natureTypes = listOf(
+            "Unknown"
+        )
+    ),
+    Hero(
+        id = 40,
+        name = "Koji",
+        image = "/images/koji.jpg",
+        about = "Koji Kashin (果心居士, Kashin Koji) is a clone of Jiraiya that was created by Amado for the purpose of killing Isshiki Ōtsutsuki. A former Inner of Kara, he was in charge of the sector on the outskirts of the Land of Fire. An enigmatic man, Koji has a very stoic and straightforward nature that follows a no-nonsense view. Arrogant as he may appear, he has consistently shown himself to be a very rational and perceptive man.",
+        rating = 4.5,
+        power = 90,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Jiraiya"
+        ),
+        abilities = listOf(
+            "Senin Mode",
+            "Rasengan",
+            "Shadow Clone"
+        ),
+        natureTypes = listOf(
+            "Fire",
+            "Earth"
+        )
+    )
+)
+val page5 = listOf(
+    Hero(
+        id = 41,
+        name = "Momoshiki",
+        image = "/images/momoshiki.jpg",
+        about = "Momoshiki Ōtsutsuki (大筒木モモシキ, Ōtsutsuki Momoshiki) was a member of the Ōtsutsuki clan's main family, sent to investigate the whereabouts of Kaguya and her God Tree and then attempting to cultivate a new one out of the chakra of the Seventh Hokage. In the process of being killed by Boruto Uzumaki, Momoshiki placed a Kāma on him, allowing his spirit to remain intact through the mark.",
+        rating = 4.9,
+        power = 98,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Otsutsuki Clan"
+        ),
+        abilities = listOf(
+            "Rinnegan",
+            "Byakugan",
+            "Strength"
+        ),
+        natureTypes = listOf(
+            "Fire",
+            "Lightning",
+            "Wind",
+            "Water",
+            "Earth"
+        )
+    ),
+    Hero(
+        id = 42,
+        name = "Urashiki",
+        image = "/images/urashiki.jpg",
+        about = "Urashiki Ōtsutsuki (大筒木ウラシキ, Ōtsutsuki Urashiki) was a low-ranking member of the Ōtsutsuki clan's main family, sent to assist Momoshiki and Kinshiki on their mission to investigate Kaguya's whereabouts and gather the chakra of the God Tree on Earth. Compared to his comrades, Urashiki had been shown to have a rather laid-back and jovial personality. He was quite willing to joke along with Momoshiki and Kinshiki, and disparaged on how serious they are.",
+        rating = 4.4,
+        power = 95,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Otsutsuki Clan"
+        ),
+        abilities = listOf(
+            "Space–Time",
+            "Rinnegan",
+            "Byakugan"
+        ),
+        natureTypes = listOf(
+            "Fire",
+            "Lightning",
+            "Wind",
+            "Earth"
+        )
+    ),
+    Hero(
+        id = 43,
+        name = "Code",
+        image = "/images/code.jpg",
+        about = "Code (コード, Kōdo) is the last active Inner from Kara. Carrying Isshiki Ōtsutsuki's legacy within him, he inherits the Ōtsutsuki Clan's will to become a Celestial Being and continually evolve. At the time Kawaki was brought to Kara, Code was one of fifteen candidates in Jigen and Amado's Ōtsutsuki ritual to screen for a Kāma vessel for Isshiki. Only Kawaki survived to become an actual vessel.",
+        rating = 4.8,
+        power = 99,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Unknown"
+        ),
+        abilities = listOf(
+            "White Karma",
+            "Transformation",
+            "Genjutsu"
+        ),
+        natureTypes = listOf(
+            "Unknown"
+        )
+    ),
+    Hero(
+        id = 44,
+        name = "Amado",
+        image = "/images/amado.jpg",
+        about = "Amado (アマド, Amado) is a former Inner from the organisation Kara and the head of its research and development division. He has since defected to Konohagakure, where he used a mix of bluffs and gifts to gain official citizenship for the Hokage's protection. Amado had a daughter who died twelve years prior to the reign of the Seventh Hokage. In his quest to kill Isshiki Ōtsutsuki, Amado joined Kara and was granted the rank of Inner, serving as the head of its research and development division.",
+        rating = 5.0,
+        power = 90,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Unknown"
+        ),
+        abilities = listOf(
+            "Science",
+            "Intelligence",
+            "Trickery"
+        ),
+        natureTypes = listOf(
+            "Unknown"
+        )
+    ),
+    Hero(
+        id = 45,
+        name = "Koji",
+        image = "/images/koji.jpg",
+        about = "Koji Kashin (果心居士, Kashin Koji) is a clone of Jiraiya that was created by Amado for the purpose of killing Isshiki Ōtsutsuki. A former Inner of Kara, he was in charge of the sector on the outskirts of the Land of Fire. An enigmatic man, Koji has a very stoic and straightforward nature that follows a no-nonsense view. Arrogant as he may appear, he has consistently shown himself to be a very rational and perceptive man.",
+        rating = 4.5,
+        power = 90,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Jiraiya"
+        ),
+        abilities = listOf(
+            "Senin Mode",
+            "Rasengan",
+            "Shadow Clone"
+        ),
+        natureTypes = listOf(
+            "Fire",
+            "Earth"
+        )
+    ),
+    Hero(
+        id = 46,
+        name = "Momoshiki",
+        image = "/images/momoshiki.jpg",
+        about = "Momoshiki Ōtsutsuki (大筒木モモシキ, Ōtsutsuki Momoshiki) was a member of the Ōtsutsuki clan's main family, sent to investigate the whereabouts of Kaguya and her God Tree and then attempting to cultivate a new one out of the chakra of the Seventh Hokage. In the process of being killed by Boruto Uzumaki, Momoshiki placed a Kāma on him, allowing his spirit to remain intact through the mark.",
+        rating = 4.9,
+        power = 98,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Otsutsuki Clan"
+        ),
+        abilities = listOf(
+            "Rinnegan",
+            "Byakugan",
+            "Strength"
+        ),
+        natureTypes = listOf(
+            "Fire",
+            "Lightning",
+            "Wind",
+            "Water",
+            "Earth"
+        )
+    ),
+    Hero(
+        id = 47,
+        name = "Urashiki",
+        image = "/images/urashiki.jpg",
+        about = "Urashiki Ōtsutsuki (大筒木ウラシキ, Ōtsutsuki Urashiki) was a low-ranking member of the Ōtsutsuki clan's main family, sent to assist Momoshiki and Kinshiki on their mission to investigate Kaguya's whereabouts and gather the chakra of the God Tree on Earth. Compared to his comrades, Urashiki had been shown to have a rather laid-back and jovial personality. He was quite willing to joke along with Momoshiki and Kinshiki, and disparaged on how serious they are.",
+        rating = 4.4,
+        power = 95,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Otsutsuki Clan"
+        ),
+        abilities = listOf(
+            "Space–Time",
+            "Rinnegan",
+            "Byakugan"
+        ),
+        natureTypes = listOf(
+            "Fire",
+            "Lightning",
+            "Wind",
+            "Earth"
+        )
+    ),
+    Hero(
+        id = 48,
+        name = "Code",
+        image = "/images/code.jpg",
+        about = "Code (コード, Kōdo) is the last active Inner from Kara. Carrying Isshiki Ōtsutsuki's legacy within him, he inherits the Ōtsutsuki Clan's will to become a Celestial Being and continually evolve. At the time Kawaki was brought to Kara, Code was one of fifteen candidates in Jigen and Amado's Ōtsutsuki ritual to screen for a Kāma vessel for Isshiki. Only Kawaki survived to become an actual vessel.",
+        rating = 4.8,
+        power = 99,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Unknown"
+        ),
+        abilities = listOf(
+            "White Karma",
+            "Transformation",
+            "Genjutsu"
+        ),
+        natureTypes = listOf(
+            "Unknown"
+        )
+    ),
+    Hero(
+        id = 49,
+        name = "Amado",
+        image = "/images/amado.jpg",
+        about = "Amado (アマド, Amado) is a former Inner from the organisation Kara and the head of its research and development division. He has since defected to Konohagakure, where he used a mix of bluffs and gifts to gain official citizenship for the Hokage's protection. Amado had a daughter who died twelve years prior to the reign of the Seventh Hokage. In his quest to kill Isshiki Ōtsutsuki, Amado joined Kara and was granted the rank of Inner, serving as the head of its research and development division.",
+        rating = 5.0,
+        power = 90,
+        month = "Jan",
+        day = "1st",
+        family = listOf(
+            "Unknown"
+        ),
+        abilities = listOf(
+            "Science",
+            "Intelligence",
+            "Trickery"
+        ),
+        natureTypes = listOf(
+            "Unknown"
+        )
+    ),
+    Hero(
+        id = 50,
         name = "Koji",
         image = "/images/koji.jpg",
         about = "Koji Kashin (果心居士, Kashin Koji) is a clone of Jiraiya that was created by Amado for the purpose of killing Isshiki Ōtsutsuki. A former Inner of Kara, he was in charge of the sector on the outskirts of the Land of Fire. An enigmatic man, Koji has a very stoic and straightforward nature that follows a no-nonsense view. Arrogant as he may appear, he has consistently shown himself to be a very rational and perceptive man.",
